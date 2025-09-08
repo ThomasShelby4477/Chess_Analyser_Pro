@@ -54,22 +54,24 @@ python-chess
 
 ## ▶️ Usage
 
-### 1. Split dataset (train/val/test)
+### 1. Create a "DataSet" named folder
+
+### 2. Split dataset (train/val/test)
 ```bash
 python split.py --dataset dataset/ --output split_dataset/
 ```
 
-### 2. Train the model
+### 3. Train the model
 ```bash
 python train.py --dataset dataset/ --epochs 20 --batch-size 32
 ```
 
-### 3. Test the model
+### 4. Test the model
 ```bash
 python test.py --model chess_piece_model.pth
 ```
 
-### 4. Run the analyser
+### 5. Run the analyser
 ```bash
 python chess_analyser_pro.py --image path/to/chessboard.png
 ```
