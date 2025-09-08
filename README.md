@@ -54,9 +54,9 @@ python-chess
 
 ## ▶️ Usage
 
-### 1. Run the analyser
+### 1. Split dataset (train/val/test)
 ```bash
-python chess_analyser_pro.py --image path/to/chessboard.png
+python split.py --dataset dataset/ --output split_dataset/
 ```
 
 ### 2. Train the model
@@ -69,12 +69,11 @@ python train.py --dataset dataset/ --epochs 20 --batch-size 32
 python test.py --model chess_piece_model.pth
 ```
 
-### 4. Split dataset (train/val/test)
+### 4. Run the analyser
 ```bash
-python split.py --dataset dataset/ --output split_dataset/
+python chess_analyser_pro.py --image path/to/chessboard.png
 ```
 
----
 
 ## 📊 Dataset
 - Images are organized by class (`wP`, `bK`, `wQ`, etc.).
