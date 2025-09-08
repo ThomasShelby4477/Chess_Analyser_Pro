@@ -89,6 +89,21 @@ python chess_analyser_pro.py --image path/to/chessboard.png
 - Saves model in `.pth` format.
 
 ---
+## 🧠 Project UI - DEMO
+
+Set-up Screen
+![Chess Analyser Screenshot](assets/1.png)
+
+Robust Dection
+![Chess Analyser Screenshot](assets/2.png)
+
+Main Menu
+![Chess Analyser Screenshot](assets/3.png)
+
+Running Product
+![Chess Analyser Screenshot](assets/4.png)
+
+
 
 ## 📜 License
 MIT License.  
